@@ -50,7 +50,7 @@ class Contacto extends StatelessWidget {
                         padding: EdgeInsets.all(8.0),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(50)),
-                          color: Colors.white,
+                          color: Colors.white.withOpacity(0.5),
                           boxShadow: [
                             BoxShadow(color: Colors.black, blurRadius: 5)
                           ],
